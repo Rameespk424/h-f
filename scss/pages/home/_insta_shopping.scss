@@ -1,0 +1,78 @@
+.insta_shopping {
+    .wrapper {
+      
+        .insta_product {
+            .wrapper {
+                position: relative;
+               
+margin: 5px 5px;
+                &:hover {
+                    .hide {
+                        display: block !important;
+                    }
+                    &:after {
+                        position: absolute;
+                        content: " ";
+                        height: 100%;
+                        width: 100%;
+                        background-color: #00000073;
+                        top: 0;
+                        left: 0;
+                        -webkit-animation-name: fadeIn;
+                        animation-name: fadeIn;
+                        -webkit-animation-duration: 1s;
+                        animation-duration: 1s;
+                        -webkit-animation-fill-mode: both;
+                        animation-fill-mode: both;
+                        @-webkit-keyframes fadeIn {
+                            0% {
+                                opacity: 0;
+                            }
+                            50% {
+                                opacity: 0.5;
+                            }
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+                        @keyframes fadeIn {
+                            0% {
+                                opacity: 0;
+                            }
+                            50% {
+                                opacity: 0.5;
+                            }
+                            100% {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                img {
+                    width: 100%;
+                }
+                .insta_icons {
+                    position: absolute;
+                   
+                    width: 100%;
+                    text-align: center;
+                    top: 50%;
+                    z-index: 1;
+                    display: none;
+                    a {
+                        font-size: 30px;
+                        padding: 10px;
+                        color: $color-white;
+                        text-decoration: none;
+                        &:hover{
+                            color: $color-brand2;
+                        }
+                    }
+                }
+                .hide {
+                    display: none;
+                }
+            }
+        }
+    }
+}

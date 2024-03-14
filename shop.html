@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Vogue</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- google icon css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+      <!-- Login model starts here -->
+
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register Now</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid p-0">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 ">
+                                <div class="login_img">
+                                    <img src="img/login/Mobile-login.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="wrapper">
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Confirm password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I Accept to the Terms & Conditions
+                                            </label>
+                                        </div>
+                                        <div class="member text-center">
+                                            already a member?<a href="#" class="btn btn-login">Login now</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Login model starts here -->
+
+    <!-- Navbar -->
+    <section class="top_nav">
+        <div class="container">
+            <div class="first_nav">
+                <div class="row">
+                    <div class="col-lg-6 col-md-3 col-sm-3">
+                        <a class="logo" href="index.html">
+                            T <span>V</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-9 col-12 col-sm-8">
+                        <div class="row">
+                            <div class="top_nav_right">
+                                <div class="selectbox">
+                                    <select class="selectpicker" data-show-subtext="true" data-live-search="true">
+                                        <optgroup label="Mens">
+                                            <option data-subtext="Rep California">Tom Foolery</option>
+                                            <option data-subtext="Sen California">Bill Gordon</option>
+                                            <option data-subtext="Sen Massacusetts">Elizabeth Warren</option>
+                                            <option data-subtext="Rep Alabama">Mario Flores</option>
+                                            <option data-subtext="Rep Alaska">Don Young</option>
+                                            <option data-subtext="Rep California" disabled="disabled">Marvin Martinez
+                                            </option>
+                                        </optgroup>
+                                        <optgroup label="Women">
+                                            <option data-subtext="Rep California">Tom Foolery</option>
+                                            <option data-subtext="Sen California">Bill Gordon</option>
+                                            <option data-subtext="Sen Massacusetts">Elizabeth Warren</option>
+                                            <option data-subtext="Rep Alabama">Mario Flores</option>
+                                            <option data-subtext="Rep Alaska">Don Young</option>
+                                            <option data-subtext="Rep California" disabled="disabled">Marvin Martinez
+                                            </option>
+                                        </optgroup>
+                                        <optgroup label="kids">
+                                            <option data-subtext="Rep California">Tom Foolery</option>
+                                            <option data-subtext="Sen California">Bill Gordon</option>
+                                            <option data-subtext="Sen Massacusetts">Elizabeth Warren</option>
+                                            <option data-subtext="Rep Alabama">Mario Flores</option>
+                                            <option data-subtext="Rep Alaska">Don Young</option>
+                                            <option data-subtext="Rep California" disabled="disabled">Marvin Martinez
+                                            </option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <a href="#" class="btn btn-search">Search</a>
+                                <div class="nav_icons">
+                                    <a href="" type="button" class="btn btn-user" data-toggle="modal"
+                                        data-target="#myModal">
+                                        <span class="fas fa-user-alt"></span>
+                                    </a>
+                                    <a href="" type="button" class="btn btn-user" data-toggle="modal"
+                                        data-target=".myModal">
+                                        <span class="fas fa-shopping-bag"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar navbar-dark">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav" id="myDIV">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html" role="button" aria-haspopup="true"
+                                        aria-expanded="false">Home</a>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu" style="position:static;">
+                                    <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="men.html"
+                                        role="button" aria-haspopup="true" aria-expanded="false">Men's Cloathing</a>
+                                    <div class="dropdown-menu" style="width:100%">
+                                        <div class="px-0 container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Jackets</a>
+                                                    <a class="dropdown-item" href="men.html">Trousers</a>
+                                                    <a class="dropdown-item" href="men.html">Inners</a>
+                                                    <a class="dropdown-item" href="men.html">Sports wear</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu" style="position:static;">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Women's Cloathing</a>
+                                    <div class="dropdown-menu" style="width:100%">
+                                        <div class="px-0 container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Jackets</a>
+                                                    <a class="dropdown-item" href="men.html">Trousers</a>
+                                                    <a class="dropdown-item" href="men.html">Inners</a>
+                                                    <a class="dropdown-item" href="men.html">Sports wear</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu" style="position:static;">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Kid's Cloathing</a>
+                                    <div class="dropdown-menu" style="width:100%">
+                                        <div class="px-0 container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Jackets</a>
+                                                    <a class="dropdown-item" href="men.html">Trousers</a>
+                                                    <a class="dropdown-item" href="men.html">Inners</a>
+                                                    <a class="dropdown-item" href="men.html">Sports wear</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a class="dropdown-item" href="men.html">Shirts</a>
+                                                    <a class="dropdown-item" href="men.html">T-shirts</a>
+                                                    <a class="dropdown-item" href="men.html">Jeans</a>
+                                                    <a class="dropdown-item" href="men.html">Coats</a>
+                                                    <a class="dropdown-item" href="men.html">Blazer</a>
+                                                    <a class="dropdown-item" href="men.html">Kurtee</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="about.html" role="button" aria-haspopup="true"
+                                        aria-expanded="false">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="blog.html" role="button" aria-haspopup="true"
+                                        aria-expanded="false">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="contact.html" role="button" aria-haspopup="true"
+                                        aria-expanded="false">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <!-- Banner section starts here -->
+        <div class="banner_about">
+            <div href="#" class="banner_heading">
+                <span>T</span>rend <span>V</span>ogue
+               
+            </div>
+        </div>
+        <!-- Banner section ends here -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a><i class="material-icons"
+                  style="font-size:12px;color:#f86a6a;">arrow_forward</i></li>
+              <li class="breadcrumb-item"><a href="#">Shop</a></li>
+              <!-- <li class="breadcrumb-item active" aria-current="page">PODUCTS</li> -->
+            </ol>
+          </nav>
+    </header>
+
+<!-- shop section starts here -->
+
+<section class="shopie gap3">
+
+    <div class="container">
+        <div class="category_heading">
+            <h4>
+                Mens's Collection
+            </h4>
+        </div>
+
+
+        <div class="shop_content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/1.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/2.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="quick_view zoomIn">Quick view</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/3.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1  view_more">
+                    
+                        <div class="wrapper">
+                            
+                            <a href="#" class="btn btn-shop_more">View More</a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="category_heading">
+            <h4>
+                Women's Collection
+            </h4>
+        </div>
+
+
+         <div class="shop_content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/1.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/2.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="quick_view zoomIn">Quick view</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/3.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1  view_more">
+                    
+                        <div class="wrapper">
+                            
+                            <a href="#" class="btn btn-shop_more">View More</a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="category_heading">
+            <h4>
+                Boy's Collection
+            </h4>
+        </div>
+
+
+         <div class="shop_content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/1.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/2.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="quick_view zoomIn">Quick view</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/3.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1  view_more">
+                    
+                        <div class="wrapper">
+                            
+                            <a href="#" class="btn btn-shop_more">View More</a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="category_heading">
+            <h4>
+                Girl's Collection
+            </h4>
+        </div>
+
+
+         <div class="shop_content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/1.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/2.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="quick_view zoomIn">Quick view</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1 ">
+                    <div class="sliding_product">
+                        <div class="wrapper">
+                            <div class="img_wrapper">
+                                <img src="img/smart-cloths/3.jpg" alt="">
+                                <div class="inner">
+                                    <a href="#" class="outof_stock">Out of stock</a>
+                                </div>
+
+
+                            </div>
+                            <h4 class="sp_name">
+                                Women's Saree
+                            </h4>
+                            <div class="price">
+                                <div class="new">$25.99</div>
+                                <div class="old">$35.99</div>
+                            </div>
+                            <a href="#">
+                                <span class=" 	fas fa-cart-arrow-down"></span>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-1  view_more">
+                    
+                        <div class="wrapper">
+                            
+                            <a href="#" class="btn btn-shop_more">View More</a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- shop section ends here -->
+
+
+
+     <!-- Section insta shopping starts here -->
+     <Section class="insta_shopping">
+        <div class="container-fluid">
+            <div class="wrapper gap2">
+                <h3 class="main_heading">
+                    Shop From Social platform
+                </h3>
+                <div class="insta_product gap">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (1).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (2).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (3).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (4).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (5).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (6).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (7).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (8).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (9).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (10).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (11).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-6 p-0">
+                            <div class="wrapper ">
+                                <img src="img/instagram product/1 (12).jpg" class="img-fluid" alt="">
+                                <div class="insta_icons hide">
+                                    <a href=" #" class="fas fa-heart"></a>
+                                    <a href=" #" class="fas fa-comment"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- Section insta shopping ends here -->
+    <!-- Footer section starts here -->
+    <Section class="footer gap4">
+        <div class="container-fluid">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 col-sm-4 col-12">
+                        <div class="warpper">
+                            <h4 class="heading ">
+                                Support
+                            </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item ">
+                                    <a href="" class="">
+                                        Shipping
+                                    </a>
+                                </li>
+                                <li class="list-group-item  ">
+                                    <a href="">
+                                        Payment
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        Cancellation & Return
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        FAQ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                        <div class="warpper">
+                            <h4 class="heading ">
+                                Latest Blog
+                            </h4>
+                            <a href="#" class="latest">
+                                <div class="img_wrapper">
+                                    <img src="img/footer/1.jpg" alt="">
+                                </div>
+                                <div class="blog_name">
+                                    Vis nœ nibh latîne, ad vïx mundi côngue. Decoré ménandri.
+                                </div>
+                            </a>
+                            <a href="#" class="latest">
+                                <div class="img_wrapper">
+                                    <img src="img/footer/2.jpg" alt="">
+                                </div>
+                                <div class="blog_name">
+                                    Usu omïttantur phïlœsophia cu, possit îriuré in mél.
+                                </div>
+                            </a>
+                            <a href="#" class="latest">
+                                <div class="img_wrapper">
+                                    <img src="img/footer/3.jpg" alt="">
+                                </div>
+                                <div class="blog_name">
+                                    Prôbô possit îriuré in mél., ad vïx mundi côngue.
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                        <div class="warpper">
+                            <h4 class="heading ">
+                                Office Location
+                            </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item ">
+                                    <a href="" class="">
+                                        Mumbai
+                                    </a>
+                                </li>
+                                <li class="list-group-item  ">
+                                    <a href="">
+                                        Kolkata
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        Jiddah
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        Okland
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        UAE
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="">
+                                        Doha
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="warpper">
+                            <h4 class="heading ">
+                                Pinterest Posts
+                            </h4>
+                            <div class="row">
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (1).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (2).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (3).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (4).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (5).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (6).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (7).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (8).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 p-2">
+                                    <div class="pinterest">
+                                        <div class="img_wrapper">
+                                            <img src="img/footer/pintrest/1 (9).jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                        <div class="warpper cc">
+                            <h4 class="heading">Tag Clouds</h4>
+                            <div class="wrapper_t">
+                                <div class="tt">
+                                    <div class="inner">
+                                        <a href="#">
+                                            video
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            Artist
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            nature
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            business
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            trends
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            tech
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            news
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            Felix
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            Suarez
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            Pogba
+                                        </a>
+                                    </div>
+                                    <div class="inner">
+                                        <a href="#">
+                                            Trincao
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="footer_middle">
+            <div class="container py-5">
+                <ul class="footer_links  ">
+                    <li class="">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a href="about.html">About us </a>
+                    </li>
+                    <li class="">
+                        <a href="shop.html">Shop</a>
+                    </li>
+                    <li class="">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="social_links">
+                    <h3>Follow Us</h3>
+                    <div class="footer_icon">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"> <span class="fab fa-pinterest"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"> <span class="fab fa-twitter"></span></a>
+                        <a href="#"> <span class=" 	fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer_bottom py-5">
+            <div class="bottom_content ">
+                <div class="left">
+                    <h4 class="heading dd">
+                        Payment methode
+                    </h4>
+                    <div class="payment">
+                        <div class="cc">
+                            <img src="img/footer/icon/maestro.svg" alt="">
+                        </div>
+                        <div class="cc">
+                            <img src="img/footer/icon/discover.svg" alt="">
+                        </div>
+                        <div class="cc">
+                            <img src="img/footer/icon/phone.svg" alt="">
+                        </div>
+                        <div class="cc">
+                            <img src="img/footer/icon/master-card.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#" class="banner_heading">
+                        <span>T</span>rend <span>V</span>ogue
+                    </a>
+                    <div class="copy_right">
+                        <small class="text-muted">
+                            Copy right © 2021 <a href="#"> trendvogue.com </a>All rights reserved
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </Section>
+    <!-- Footer section ends here -->
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- Owl JS -->
+    <script src="./js/owl.carousel.js"></script>
+    <!-- Add active class to the current button in Navbar (highlight it) -->
+    <script>
+        var header = docuallt.getElementById("myDIV");
+        var btns = header.getElementsByClassName("nav-link");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" active", "");
+                }
+                this.className += " active";
+            });
+        }
+    </script>
+    <!-- Banner Slider -->
+    <script>
+        $(document).ready(function () {
+            $("#banner").owlCarousel(
+                {
+                    // animateOut: 'slideOutDown',
+                    // animateIn: 'flipInX',
+                    items: 1,
+                    loop: true,
+                    margin: 0,
+                    stagePadding: 0,
+                    smartSpeed: 450,
+                    autoplay: true,
+                    autoPlaySpeed: 1000,
+                    autoPlayTimeout: 1000,
+                    autoplayHoverPause: true,
+                    onInitialized: counter,
+                    dots: true,
+                    nav: false,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    animateOut: 'fadeOut'
+                }
+            );
+            $("#owl-example").owlCarousel(
+                {
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 4,
+                    loop: true,
+                    margin: 0,
+                    stagePadding: 0,
+                    smartSpeed: 450,
+                    autoplay: true,
+                    autoPlaySpeed: 1000,
+                    autoPlayTimeout: 1000,
+                    autoplayHoverPause: true,
+                    onInitialized: counter,
+                    dots: true,
+                    nav: false,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    // animateOut: 'fadeOut'
+                }
+            );
+
+
+            $("#owl-example1 ").owlCarousel(
+                {
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 4,
+                    loop: true,
+                    margin: 0,
+                    stagePadding: 0,
+                    smartSpeed: 450,
+                    autoplay: true,
+                    autoPlaySpeed: 1000,
+                    autoPlayTimeout: 1000,
+                    autoplayHoverPause: true,
+                    onInitialized: counter,
+                    dots: true,
+                    nav: false,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    // animateOut: 'fadeOut'
+                }
+            );
+
+            $("#owl-example2 ").owlCarousel(
+                {
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 4,
+                    loop: true,
+                    margin: 0,
+                    stagePadding: 0,
+                    smartSpeed: 450,
+                    autoplay: true,
+                    autoPlaySpeed: 1000,
+                    autoPlayTimeout: 1000,
+                    autoplayHoverPause: true,
+                    onInitialized: counter,
+                    dots: true,
+                    nav: false,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    // animateOut: 'fadeOut'
+                }
+            );
+            $("#owl-example3 ").owlCarousel(
+                {
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 4,
+                    loop: true,
+                    margin: 0,
+                    stagePadding: 0,
+                    smartSpeed: 450,
+                    autoplay: true,
+                    autoPlaySpeed: 1000,
+                    autoPlayTimeout: 1000,
+                    autoplayHoverPause: true,
+                    onInitialized: counter,
+                    dots: true,
+                    nav: false,
+                    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+                    // animateOut: 'fadeOut'
+                }
+            );
+
+
+        });
+        function counter() {
+            var buttons = $('.owl-dots button');
+            buttons.each(function (index, item) {
+                // $(item).find('span').text(index + 1);
+            });
+        }
+    </script>
+  
+    <!-- Model -->
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+            $(".close").click(function () {
+                $("#myModal").modal('hide');
+            });
+        });
+    </script>
+</body>
+
+</html>

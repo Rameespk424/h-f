@@ -1,0 +1,186 @@
+.smart_cloath {
+    .wrapper {
+        @media screen and(max-width:768px) {
+            padding-bottom: 0 !important;
+        }
+        .tab_part {
+            .nav-tabs {
+                display: flex;
+                justify-content: center;
+                border-bottom: transparent;
+                .nav-link {
+                    font-size: 22px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    padding: 10px 30px;
+                    text-transform: uppercase;
+                    border: 1px solid;
+                    border-color: transparent;
+                    border-bottom-color: $color-brand !important;
+                    color: $color-text;
+                    background: transparent;
+                }
+                .active,
+                .nav-link:hover {
+                    border: 1px solid;
+                    border-color: transparent;
+                    border-bottom-color: $color-brand !important;
+                    color: $color-brand2;
+                }
+            }
+            .tab-content {
+                .sliding_product {
+                    .wrapper {
+                   
+                        margin: 0px 39px;
+                        .img_wrapper {
+                            max-width: 300px;
+                            position: relative;
+                            margin: auto;
+                            @media screen and(max-width:600px) {
+                                max-width: 100%;
+                            }
+                            img {
+                                width: 100%;
+                            }
+
+                            
+                        .inner{
+                            width: 100%;
+                            height: 100%;
+                            background-color: #00000300;
+                            position: absolute;
+                            top: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            z-index: 3;
+                            &:hover{
+                                background-color: #0000036c;
+                            }
+                        }
+                        }
+                        .sp_name {
+                            text-align: center;
+                           
+                            margin-top: 20px;
+                            a{
+                                text-decoration: none;
+                               font-weight: normal;
+                            font-size: 20px;
+                            color: $color-black;
+                            &:hover{
+                                color: $select-focus-color;
+                            }
+                            }
+                        }
+                        .price {
+                            display: flex;
+                            justify-content: space-around;
+                            font-weight: 600;
+                            padding: 15px 0px;
+                            border: 1px solid transparent;
+                            border-bottom-color: $primary-ultralight;
+                            .new {
+                                color: $color-black;
+                                font-size: 22px;
+                            }
+                            .old {
+                                color: $color-text;
+                                font-size: 22px;
+                                font-weight: lighter;
+                                text-decoration: line-through;
+                            }
+                        }
+                        span {
+                            color: #94cad7;
+                            font-size: 30px;
+                            padding: 20px 10px;
+                            display: block;
+                            text-align: end;
+                            margin-right: 43px;
+                            @media screen and(max-width:996px) {
+                                margin-right: 30px;
+                            }
+                        }
+                        .quick_view {
+                            // position: absolute;
+                            color: white;
+                            font-size: 16px;
+                            background-color: #242452;
+                            padding: 8px 23px;
+                            // top: 51%;
+                            // left: 24%;
+                            display: none;
+                            text-decoration: none;
+                            font-weight: 500;
+                            
+                            &:hover {
+                                background-color: $color-brand4;
+                              
+                            }
+                        }
+        
+        
+                        .outof_stock {
+                            // position: absolute;
+                            color: white;
+                            font-size: 15px;
+                            background-color: #b8b8b8;
+                            padding: 7px 18px;
+                            // top: 51%;
+                            // left: 23%;
+                            display: block;
+                            text-decoration: none;
+                            font-weight: normal;
+                            letter-spacing: 1px;
+                            
+                            cursor: not-allowed;
+                        }
+        
+
+                        &:hover {
+                            .quick_view {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .owl-nav{
+        display: none;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
